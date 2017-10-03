@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prasanth.yogafinal.MainActivity">
+
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="309dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="50dp"
+        android:freezesText="false"
+        android:text="Click Start to enter the Yoga Training Program. Once you click Start, you will be presented with a series of poses, wth difficulties ranging from beginning, medium, and hard. Have fun!"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"
+        tools:freezesText="false"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/buttonTxt"
+        android:layout_width="143dp"
+        android:layout_height="67dp"
+        android:background="@android:color/black"
+        android:freezesText="true"
+        android:text="START"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="333dp" />
+</android.support.constraint.ConstraintLayout>
